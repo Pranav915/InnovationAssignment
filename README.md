@@ -32,7 +32,22 @@ git clone https://github.com/Pranav915/InnovationAssignment.git
 
 ### Step 2: Setup the env variables in .env file in server folder
 
-Create .env file and populate with the envrionment variables, the list of environment variables is listed in the file environment variables in server.
+Create .env file and populate with the envrionment variables.
+```bash
+   # Innovation Assignment Configuration (Example .env file)
+
+   # Port for the API server
+   API_PORT=5000
+   
+   # MongoDB URI for database connection
+   MONGO_URI=your_mongo_uri
+   
+   # Localhost URL for the client application
+   LOCALHOST=http://localhost:3000/
+   
+   # Authentication Token for secure communication
+   AUTH_TOKEN=
+```
 
 ### Step 3: Start the backend
 
